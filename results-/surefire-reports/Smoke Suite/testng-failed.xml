@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke Suite]">
+  <test name="Click Tripz(failed)">
+    <classes>
+      <class name="test.java.smokeTests.FlightsTest">
+        <methods>
+          <include name="flightsTest" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.smokeTests.FlightsTest -->
+      <class name="test.java.smokeTests.HotelCityWideTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="hotelCityWideTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.java.smokeTests.HotelCityWideTest -->
+    </classes>
+  </test> <!-- Click Tripz(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

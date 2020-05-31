@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite"  verbose="1" configfailurepolicy="continue">
+    <test name="Grid  Test1">
+        <classes>
+        <class name="test.java.smokeTests.HotelCityWideTest"/>
+        </classes>
+    </test>
+    <test name="Grid  Test2">
+        <classes>
+        <class name="test.java.smokeTests.FlightsTest"/>
+        </classes>
+    </test>
+</suite>
